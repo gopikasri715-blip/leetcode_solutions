@@ -1,6 +1,6 @@
 class Solution:
     def mergeTwoLists(self, list1, list2): 
-        dummy= ListNode()
+        dummy= ListNode() # type: ignore
         curr=dummy
         while list1 and list2:
             if list1.val<=list2.val:
