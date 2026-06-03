@@ -5,7 +5,7 @@ class Solution:
         right = n
         while left<=right:
             mid = (left+right)//2
-            result = guess(mid)
+            result = guess(mid) # type: ignore
             if result==0:
                 return mid
             elif result==1:
