@@ -1,7 +1,7 @@
 class Solution:
     def checkInclusion(self,s1,s2):
-        s1_count = Counter(s1)
-        window = Counter()
+        s1_count = Counter(s1) # type: ignore
+        window = Counter() # type: ignore
 
         for i in range(len(s2)):
             window[s2[i]] += 1
