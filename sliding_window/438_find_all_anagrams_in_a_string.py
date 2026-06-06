@@ -1,7 +1,7 @@
 class Solution:
-    def findAnagrams(self, s: str, p: str) -> List[int]:
-        p_count = Counter(p)
-        window = Counter()
+    def findAnagrams(self, s: str, p: str) -> List[int]: # type: ignore
+        p_count = Counter(p) # type: ignore
+        window = Counter() # type: ignore
 
         result = []
 
