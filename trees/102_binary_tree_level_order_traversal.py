@@ -3,7 +3,7 @@ class Solution:
         if not root:
             return []
         result=[]
-        queue=deque([root])
+        queue=deque([root]) # type: ignore
         while queue:
             level=[]
             for _ in range(len(queue)):
