@@ -1,6 +1,6 @@
 class Solution:
     def findLHS(self, nums):
-        count = Counter(nums)
+        count = Counter(nums) # type: ignore
 
         longest = 0
 
